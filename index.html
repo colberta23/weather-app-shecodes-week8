@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Umbrella Weather App</title>
+  </head>
+  <body>
+    <div class="weather-app">
+      <header>
+        <span class="umbrella"> 🌂</span>
+        <span class="header-app"> The Umbrella Weather Application </span>
+      </header>
+      <form id="search-form-element">
+        <input
+          type="search"
+          placeholder="Enter a city.."
+          required
+          class="search-city"
+          id="search-input"
+        />
+        <input type="submit" value="Search" class="submit" />
+      </form>
+      <main>
+        <div class="date" id="today-time"> </div>
+        <div class="today-container">
+        <span class="container-head">
+ <h1>
+    <span class="paris" id="city-name"> </span><span class="today">Today </span>
+</h1>
+          </span>
+          <p>
+            <span id="today-description">Scattered clouds</span>
+            <br />
+            Humidity: <strong id="humidity-today">66%</strong>
+             <br />
+             Wind: <strong id="wind-speed">3.13km/h</strong>
+          </p>
+
+          <div>
+            <div id="today-icon"></div>
+             <span class="temp-unit">
+            <span id="today-temperature">
+            </span>°C
+            </span>
+          </span> 
+        </div>
+      </main>
+      
+      <section class="future-weather">
+        <ul>
+          <li class="weather-forecast-day">
+          <div class="weather-forecast-date">Wed</div>
+          <div class="weather-forecast-icon">🌤️</div>
+          <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15º</strong>
+              </div>
+              <div class="weather-forecast-temperature">9º</div>
+            </div>
+           </li>
+
+    
+          <li class="weather-forecast-day">
+          <div class="weather-forecast-date">Wed</div>
+          <div class="weather-forecast-icon">🌤️</div>
+          <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15º</strong>
+              </div>
+              <div class="weather-forecast-temperature">9º</div>
+            </div>
+           </li>
+
+          
+          <li class="weather-forecast-day">
+          <div class="weather-forecast-date">Wed</div>
+          <div class="weather-forecast-icon">🌤️</div>
+          <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15º</strong>
+              </div>
+              <div class="weather-forecast-temperature">9º</div>
+            </div>
+           </li>
+
+           
+          <li class="weather-forecast-day">
+          <div class="weather-forecast-date">Wed</div>
+          <div class="weather-forecast-icon">🌤️</div>
+          <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15º</strong>
+              </div>
+              <div class="weather-forecast-temperature">9º</div>
+            </div>
+           </li>
+
+    <li class="weather-forecast-day">
+          <div class="weather-forecast-date">Wed</div>
+          <div class="weather-forecast-icon">🌤️</div>
+          <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15º</strong>
+              </div>
+              <div class="weather-forecast-temperature">9º</div>
+            </div>
+           </li>
+
+        </ul>
+      </section>
+      <footer>
+           <p>
+          This project was coded by
+          <a href="https://github.com/colberta23" target="_blank">Annie</a> and
+          is
+          <a
+            href="https://github.com/colberta23?tab=repositories"
+            target="_blank"
+          >
+            on GitHub</a
+          >
+          and
+          <a href="https://www.netlify.com/" target="_blank"
+            >hosted on Netlifyyyyy</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
