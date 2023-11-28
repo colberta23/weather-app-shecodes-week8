@@ -98,24 +98,18 @@ p {
   right: -355px;
 }
 
-ul {
-  list-style: none;
+.future-weather {
   display: flex;
-  justify-content: space-between;
-  padding-inline-start: 0px;
+  justify-content: space-around;
   color: #9d53c3;
-}
-li {
   border: none;
   border-color: #cb9bba;
   border-radius: 6px;
-  padding: 22px;
-  margin: 4px;
+  padding: 15px 35px;
+  margin-top: 7px;
   background-color: #fcefbf;
-  width: 70px;
-  display: block;
   text-align: center;
-  font-size: 15px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
 footer {
