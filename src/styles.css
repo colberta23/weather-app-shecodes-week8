@@ -98,6 +98,12 @@ p {
   right: -355px;
 }
 
+.cel {
+  font-size: 12px;
+  position: relative;
+  top: -12px;
+}
+
 .future-weather {
   display: flex;
   justify-content: space-around;
@@ -108,13 +114,15 @@ p {
   padding: 15px 35px;
   margin-top: 7px;
   background-color: #fcefbf;
-  text-align: center;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
-.weather-forecast-icon {
-  width: 2px;
+.weather-forecast-day {
   text-align: center;
+}
+
+.weather-forecast-icon {
+  width: 50px;
   display: block;
   margin: 0, auto;
 }
