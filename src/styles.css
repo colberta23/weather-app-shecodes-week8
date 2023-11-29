@@ -112,6 +112,13 @@ p {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
+.weather-forecast-icon {
+  width: 2px;
+  text-align: center;
+  display: block;
+  margin: 0, auto;
+}
+
 footer {
   display: flex;
   justify-content: center;
